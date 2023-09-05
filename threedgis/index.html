@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/Build/Cesium/Widgets/widgets.css" />
+    <link
+      href="/examples/css/jquery.datetimepicker.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/examples/css/base.css" />
+    <link rel="stylesheet" href="/examples/css/dragdealer.css" />
+    <link rel="stylesheet" href="/examples/css/pretty.css" />
+    <script src="/Build/Cesium/Cesium.js"></script>
+    <script src="http://api.tianditu.gov.cn/cdn/plugins/cesium/cesiumTdt.js"></script>
+
+    <title>管网三维可视化分析系统</title>
+  </head>
+  <style>
+    .cesium-viewer-navigationContainer {
+      left: 40px;
+    }
+    .cesium-widget-credits {
+      display: none;
+    }
+    .cesium-infoBox {
+      display: none;
+    }
+  </style>
+
+  <body>
+    <div id="cesiumContainer" style="display: none">
+      <div id="vertical-slider" style="display: none"></div>
+      <div id="horizontal-slider" style="display: none"></div>
+    </div>
+    <script src="/js/main.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  <!-- <script  src="/examples/js/jquery.min.js"></script> -->
+  <script src="/examples/js/dragdealer.js"></script>
+  <script src="/examples/js//tooltip.js"></script>
+  <!-- <script  src="/examples/js/jquery.datetimepicker.full.js"></script> -->
+  <script src="/examples/js/zDialog.js"></script>
+  <script></script>
+</html>

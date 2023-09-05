@@ -1,0 +1,13 @@
+﻿.MyButton 
+{
+    height: 28px;    
+    width: 80px;
+    color: #ffffff;
+    cursor: pointer;
+    vertical-align: middle;    
+    border-radius: 4px;
+    background: #528cc9;
+}
+.MyButton:hover{
+  background-color: #15a4fa;
+}
